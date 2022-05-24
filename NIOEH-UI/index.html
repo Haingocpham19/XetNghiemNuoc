@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Inter&family=Montserrat:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Slick slide -->
+    <link rel="stylesheet" href="./lib/slick/slick/slick.css" />
+    <link rel="stylesheet" href="./lib/slick/slick/slick-theme.css" />
+
+    <!-- Animation  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- My style -->
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <link rel="stylesheet" href="./assets/style/index-responsive.css" />
+
+    <title>NIOEH</title>
+  </head>
+
+  <body>
+    <!---------------------------------- HEADER ---------------------------------------->
+    <header>
+      <div class="header-desktop">
+        <!-- header info -->
+        <div class="header-info">
+          <div
+            class="h-100 inner d-flex justify-content-between align-items-center"
+          >
+            <div class="left-info d-flex">
+              <a class="email" href="mailto:nioeh@nioeh.org.vn"
+                ><img src="./assets/icon/mail.svg" /> nioeh@nioeh.org.vn</a
+              >
+              <a class="phone" href="tel:02439714361"
+                ><img src="./assets/icon/phone-call.svg" /> 02439714361</a
+              >
+            </div>
+            <div class="right-info d-flex">
+              <a class="login" href=""
+                ><img src="./assets/icon/login.svg" /> Đăng nhập</a
+              >
+              <a class="register" href=""
+                ><img src="./assets/icon/user-1.svg" /> Đăng kí</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- header content -->
+        <div class="header-content">
+          <div
+            class="h-100 inner d-flex justify-content-between align-items-center"
+          >
+            <div class="left-content d-flex">
+              <img src="./assets/img/logo.png" />
+              <div
+                class="header-title d-flex flex-column justify-content-center"
+              >
+                <h3>VIỆN SỨC KHỎE NGHỀ NGHIỆP VÀ MÔI TRƯỜNG</h3>
+                <p>
+                  TRUNG TÂM DỊCH VỤ KHOA HỌC KỸ THUẬT SỨC KHỎE VÀ MÔI TRƯỜNG
+                </p>
+              </div>
+            </div>
+            <div class="right-content">
+              <div class="cart cursor-pointer">
+                <img src="./assets/img/cart.png" />
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- header menu -->
+        <div class="header-menu">
+          <div class="inner h-100">
+            <ul
+              class="tab-navigation h-100 d-flex flex-direction-row align-items-center"
+            >
+              <li>
+                <img src="./assets/icon/home.svg" />
+              </li>
+              <li>KIỂM TRA NƯỚC</li>
+              <li>KIỂM TRA KHÔNG KHÍ</li>
+              <li>TIN TỨC</li>
+              <li>Chi tiết bài viết</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-mobile">
+        <a href="#" class="header-logo"><img src="./assets/img/logo.png" /></a>
+        <div class="btn-nav-mobile">
+          <!-- <img src="./assets/img/bars-icon.png" alt="" /> -->
+          <div class="menu-mobile">
+            <label for="nav-mobile-input" class="nav__bars-btn" id="btn-bars">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                </svg> </label>
+            <input type="checkbox" class="nav__input" id="nav-mobile-input">
+            <label for="nav-mobile-input" class="nav__overlay">
+            </label>
+            <div class="nav__mobile">
+                <div class="nav_mobile_header d-flex justify-content-around">
+                    <img src="/assets/img/logo.png">
+                    <label for="nav-mobile-input" class="pt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-x" viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </label>
+                </div>
+                <ul class="nav__mobile-list">
+                    <li>
+                        <a href="" class="nav__mobile-link">Hợp tác với Heno</a>
+                    </li>
+                    <li>
+                        <div class="header-menu-sub">
+                            <div>
+                                <a href="" class="nav__mobile-link">Về HENO</a>
+                            </div>
+                            <div><i class="bi bi-caret-down-fill" id="btn-menu-sub-mobile"></i></div>
+                        </div>
+                        <ul class="menu-sub">
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">Cẩm nang</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html" class="nav__mobile-link">Liên hệ</a>
+                    </li>
+                    <li class="pt-3">
+                        <button class="register">Đăng ký</button>
+                        <button class="login">Đăng nhập</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+    </header>
+    <!---------------------------------- MAIN ---------------------------------------->
+    <main>
+      <!-- TAB HOME -->
+      <div class="tab-container tab-home">
+        <!-- slide -->
+        <div class="header-slider">
+          <div class="slider-item item-1">
+            <div class="slider-content inner h-100">
+              <div
+                class="left-content col-xl-6 col-lg-8 col-md-10 h-100 d-flex flex-column justify-content-center align-items-start pl-2 pr-4"
+              >
+                <h1>Healthyportal hệ thống kiểm nghiệm hàng đầu Việt Nam.</h1>
+                <p>
+                  Nước là nguồn sống cần thiết cho người người, nhà nhà. Một gia
+                  đình khỏe mạnh, một ngôi nhà khỏe mạnh thì cần có nguồn nước
+                  sạch xanh.
+                </p>
+                <a href="" class="btn btn-slide-1">XÉT NGHIỆM NGAY</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item item-2">
+            <div class="slider-content inner h-100">
+              <div
+                class="left-content col-xl-6 col-lg-8 col-md-10 h-100 d-flex flex-column justify-content-center align-items-start pl-2 pr-4"
+              >
+                <h1>Tại sao <span>xét nghiệm nước</span></h1>
+                <p>lại thực sự cần thiết</p>
+                <a href="" class="btn btn-slide-2">TÌM HIỂU THÊM</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gói dịch vụ nổi bật -->
+        <div class="pack inner">
+          <div class="pack-header d-flex justify-content-center">
+            <h3>Gói dịch vụ nổi bật</h3>
+          </div>
+          <div class="pack-content">
+            <a class="pack-item">
+              <img src="./assets/img/goi1.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">đ</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">đ</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b
+                >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo QCVN
+                02:2009/BYT</b
+              >
+            </a>
+            <a class="pack-item">
+              <img src="./assets/img/goi2.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">₫</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">₫</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b>Dịch vụ kiểm tra không khí - Gói tiêu chuẩn</b>
+            </a>
+            <a class="pack-item">
+              <img src="./assets/img/goi3.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">₫</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">₫</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b
+                >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo QCVN
+                02:2009/BYT</b
+              >
+            </a>
+            <a class="pack-item">
+              <img src="./assets/img/goi1.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">đ</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">đ</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b
+                >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo QCVN
+                02:2009/BYT</b
+              >
+            </a>
+            <a class="pack-item">
+              <img src="./assets/img/goi2.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">₫</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">₫</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b>Dịch vụ kiểm tra không khí - Gói tiêu chuẩn</b>
+            </a>
+            <a class="pack-item">
+              <img src="./assets/img/goi3.png" alt="" />
+              <div class="pack-price d-flex justify-content-between">
+                <span class="discount"
+                  >Giảm 200.000 <span class="currency">₫</span></span
+                >
+                <span class="price"
+                  >1.000.000 <span class="currency">₫</span></span
+                >
+              </div>
+              <p>KIỂM TRA NƯỚC</p>
+              <b
+                >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo QCVN
+                02:2009/BYT</b
+              >
+            </a>
+          </div>
+
+          <div class="pack-footer d-flex justify-content-center">
+            <div class="pack-item item-1">
+              <a href="" class="btn"
+                >Xét nghiệm ngay <img src="./assets/img/arrow-btn.png" alt=""
+              /></a>
+            </div>
+
+            <div class="pack-item item-2"></div>
+          </div>
+        </div>
+        <!-- Tổng quan về chúng tôi -->
+        <div class="overview">
+          <div class="inner">
+            <div
+              class="overview-header d-flex justify-content-center flex-column"
+            >
+              <h3>Tổng quan về chúng tôi</h3>
+              <p>
+                <span>Healthyportal</span> liên kết trung tâm xét nghiệm nước
+                Quốc Gia. Chúng tôi có Khoa Xét nghiệm và phân tích kỹ thuật cao
+                là khoa chuyên môn có dịch vụ khoa học kỹ thuật về xét nghiệm và
+                phân tích các yếu tố môi trường và hoá sinh. Thông qua
+                healthyportal việc kiểm tra nước thật dễ dàng và tiện lợi.
+              </p>
+            </div>
+            <div class="overview-content d-flex flex-wrap">
+              <div
+                class="d-flex flex-wrap justify-content-around col-xl-6 col-lg-12 p-0"
+              >
+                <div
+                  class="content-item item-1 d-flex flex-column align-items-center mt-5"
+                >
+                  <div
+                    class="item-header d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/img/datgoi.png" alt="" />
+                  </div>
+                  <div class="item-title d-flex flex-column align-items-center">
+                    <h5>BƯỚC 1</h5>
+                    <h4>Đặt gói dịch vụ kiểm tra</h4>
+                    <p>
+                      Đặt kiểm tra nước, kiểm tra không khí qua trang web
+                      Heathyportal
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="content-item item-2 d-flex flex-column align-items-center mt-5"
+                >
+                  <div
+                    class="item-header d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/img/nhanmau.png" alt="" />
+                  </div>
+                  <div class="item-title d-flex flex-column align-items-center">
+                    <h5>BƯỚC 2</h5>
+                    <h4>Nhận mẫu và vận chuyển</h4>
+                    <p>
+                      Chúng tôi thu thập mẫu và vận chuyển đến phòng thí nghiệm
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-wrap justify-content-around col-xl-6 col-lg-12 p-0"
+              >
+                <div
+                  class="content-item item-3 d-flex flex-column align-items-center mt-5"
+                >
+                  <div
+                    class="item-header d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/img/thuchien.png" alt="" />
+                  </div>
+                  <div class="item-title d-flex flex-column align-items-center">
+                    <h5>BƯỚC 3</h5>
+                    <h4>Thực hiện kiểm tra</h4>
+                    <p>Thực hiện kiểm tra các mẫu tại phòng thí nghiệm</p>
+                  </div>
+                </div>
+                <div
+                  class="content-item item-4 d-flex flex-column align-items-center mt-5"
+                >
+                  <div
+                    class="item-header d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/img/traketqua.png" alt="" />
+                  </div>
+                  <div class="item-title d-flex flex-column align-items-center">
+                    <h5>BƯỚC 4</h5>
+                    <h4>Trả kết quả & hướng dẫn</h4>
+                    <p>
+                      Kết quả gửi qua mail cho bạn và kèm theo HD xử lý của
+                      chuyên gia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tin tức -->
+        <div class="news">
+          <div class="inner">
+            <div class="news-header d-flex justify-content-center">
+              <h3>Tin tức</h3>
+            </div>
+            <div class="news-slide">
+              <a class="news-item">
+                <img src="/assets/img/tintuc1.png" alt="">
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </a>
+              <a class="news-item">
+                <img src="/assets/img/tintuc1.png" alt="">
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </a>
+              <a class="news-item">
+                <img src="/assets/img/tintuc1.png" alt="">
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </a>
+              <!-- <div class="news-item">
+                <div class="news-img item-2">
+                  <div class="img-title">
+                    <h4>NGUỒN NƯỚC NHÀ BẠN</h4>
+                    <h3>CÓ SẠCH ?</h3>
+                  </div>
+                  <a class="btn">Đăng ký xét nghiệm</a>
+                </div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </div>
+              <div class="news-item">
+                <div class="news-img item-3">
+                  <div class="img-title">
+                    <h4>TRA CỨU KẾT QUẢ</h4>
+                    <h3>XÉT NGHIỆM NƯỚC</h3>
+                    <a href="" class="btn">Tra cứu ngay</a>
+                  </div>
+                </div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </div>
+              <div class="news-item">
+                <div class="news-img item-1"></div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </div>
+              <div class="news-item">
+                <div class="news-img item-2">
+                  <div class="img-title">
+                    <h4>NGUỒN NƯỚC NHÀ BẠN</h4>
+                    <h3>CÓ SẠCH ?</h3>
+                  </div>
+                  <a class="btn">Đăng ký xét nghiệm</a>
+                </div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </div>
+              <div class="news-item">
+                <div class="news-img item-3">
+                  <div class="img-title">
+                    <h4>TRA CỨU KẾT QUẢ</h4>
+                    <h3>XÉT NGHIỆM NƯỚC</h3>
+                    <a href="" class="btn">Tra cứu ngay</a>
+                  </div>
+                </div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <p>12/01/2022</p>
+              </div> -->
+            </div>
+            <div
+              class="news-menu d-flex justify-content-center flex-row"
+              style="flex-wrap: wrap"
+            >
+              <a class="menu-item col-xl-6 d-flex">
+                <img src="./assets/img/tintuc4.png" alt="" />
+                <div class="content">
+                  <h5>XÉT NGHIỆM NƯỚC</h5>
+                  <h4>
+                    Công ty CP Karofi chung tay chăm lo Tết cho người nghèo
+                  </h4>
+                  <p>12/01/2022</p>
+                </div>
+              </a>
+              <a class="menu-item col-xl-6 d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="content">
+                  <h5>XÉT NGHIỆM NƯỚC</h5>
+                  <h4>
+                    Công ty CP Karofi chung tay chăm lo Tết cho người nghèo
+                  </h4>
+                  <p>12/01/2022</p>
+                </div>
+              </a>
+
+              <a class="menu-item col-xl-6 d-flex">
+                <img src="./assets/img/tintuc6.png" alt="" />
+                <div class="content">
+                  <h5>XÉT NGHIỆM NƯỚC</h5>
+                  <h4>
+                    Công ty CP Karofi chung tay chăm lo Tết cho người nghèo
+                  </h4>
+                  <p>12/01/2022</p>
+                </div>
+              </a>
+              <a class="menu-item col-xl-6 d-flex">
+                <img src="./assets/img/tintuc7.png" alt="" />
+                <div class="content">
+                  <h5>XÉT NGHIỆM NƯỚC</h5>
+                  <h4>
+                    Công ty CP Karofi chung tay chăm lo Tết cho người nghèo
+                  </h4>
+                  <p>12/01/2022</p>
+                </div>
+              </a>
+            </div>
+            <div class="news-other d-flex justify-content-center">
+              <a href="" class="btn"
+                >Xem tin khác <img src="./assets/img/arrow-btn.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TAB KIỂM TRA NƯỚC -->
+      <div class="tab-container tab-water">
+        <!-- Lợi ích của việc xét nghiệm nước  -->
+        <div class="advantage">
+          <div
+            class="inner d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="title">Lợi ích của việc xét nghiệm nước</h3>
+            <ul class="adv-navigation d-flex justify-content-around">
+              <li>TỔNG QUAN</li>
+              <li>TẠI SAO PHẢI KIỂM TRA NƯỚC</li>
+              <li>NGUYÊN NHÂN CHÍNH GÂY Ô NHIỄM</li>
+            </ul>
+            <div class="adv-container">
+              <div class="item item-1">
+                <img src="./assets/img/adv1.png" />
+                <b>Nước ơi, bạn đến từ đâu?</b>
+                <p>
+                  Mình đến từ rất nhiều nơi khác nhau: như nước máy, nước giếng
+                  khoan, nước sông, nước hồ, nước mưa,…
+                </p>
+              </div>
+              <div class="item item-2">
+                <img src="./assets/img/adv2.png" />
+                <b>Nguồn nước sạch là gì?</b>
+                <p>
+                  Nguồn nước sạch là nguồn nước đã được lọc sạch các cặn bẩn,
+                  tạp chất gây hại, vi sinh vật, vi khuẩn, vi rút có trong nước.
+                </p>
+              </div>
+              <div class="item item-3">
+                <img src="./assets/img/adv3.png" />
+                <b>Nước là nguồn sống cần thiết</b>
+                <p>
+                  Trong cơ thể chúng ta nước rất quan trọng, chúng chiếm trên
+                  70% trọng lượng. Hãy chung tay bảo vệ nguồn nước sạch bạn nhé?
+                </p>
+              </div>
+            </div>
+            <div class="adv-container">
+              <div class="item item-4">
+                <img src="./assets/img/adv4.png" />
+                <b>Bảo về đồ dùng và các thiết bị trong gia đình</b>
+                <p>
+                  Nước bẩn gây ra các hiện tượng: ố vàng, mảng bám.. trên các
+                  dụng cụ chứa nước làm giảm hiệu quả sử dụng cũng như tuổi thọ
+                  của chúng.
+                </p>
+              </div>
+              <div class="item item-5">
+                <img src="./assets/img/adv5.png" />
+                <b>Bảo vệ đời sống và sức khỏe con người</b>
+                <p>
+                  Thường xuyên kiểm tra nước để đảm bảo sức khỏe cho gia đình và
+                  những người thân yêu, bạn nhé!
+                </p>
+              </div>
+              <div class="item item-6">
+                <img src="./assets/img/adv6.png" />
+                <b>Bảo vệ các loài sinh vật sống trong nước</b>
+                <p>
+                  Nguồn nước không đủ chỉ tiêu về độ cứng và PH sẽ gây ra những
+                  vấn đề ảnh hưởng tới quá trình sinh trưởng và phát triển của
+                  các loại...
+                </p>
+              </div>
+            </div>
+            <div class="adv-container">
+              <div class="item item-7">
+                <img src="./assets/img/adv7.png" />
+                <b>Ô nhiễm tự nhiên</b>
+                <p>
+                  Do mưa bão, lụt lội... làm mất sự trong sạch của nước, khuấy
+                  động những tạp chất độc hại tích tụ bấy lâu trong lòng đất....
+                </p>
+              </div>
+              <div class="item item-8">
+                <img src="./assets/img/adv8.png" />
+                <b>Ô nhiễm nhân tạo</b>
+                <p>
+                  Phát sinh trong quá trình sinh sống, sản xuất của con người
+                  như nước thải sinh hoạt, nước thải đô thị, từ các hoạt động
+                  sản xuất ...
+                </p>
+              </div>
+              <div class="item item-9">
+                <img src="./assets/img/adv9.png" />
+                <b>Ô nhiễm từ các hoạt động khác</b>
+                <p>
+                  Nguồn nước có thể bị ô nhiễm từ hoạt động y tế, hoạt động
+                  nghiên cứu.....
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Danh sách gói xét nghiệm -->
+        <div class="pack-list">
+          <div
+            class="inner d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="title">Danh sách gói xét nghiệm</h3>
+            <div class="input-group">
+              <img src="./assets/icon/search.svg" alt="" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Tìm kiếm gói xét nghiệm nước"
+              />
+              <button class="btn">Tìm kiếm</button>
+            </div>
+            <div class="d-flex flex-wrap mb-5">
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+              <a class="pack-item">
+                <img src="./assets/img/goi1.png" alt="" />
+                <div class="pack-price d-flex justify-content-between">
+                  <span class="discount"
+                    >Giảm 200.000 <span class="currency">đ</span></span
+                  >
+                  <span class="price"
+                    >1.000.000 <span class="currency">đ</span></span
+                  >
+                </div>
+                <p>KIỂM TRA NƯỚC</p>
+                <b
+                  >Gói xét nghiệm 14 chỉ tiêu chất lượng nước sinh hoạt theo
+                  QCVN 02:2009/BYT</b
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TAB KIỂM TRA KHÔNG KHÍ -->
+      <div class="tab-container tab-air"></div>
+
+      <!-- TAB TIN TỨC -->
+      <div class="tab-container tab-news inner">
+        <div class="news-slide">
+          <a class="news-item">
+            <div class="news-img item-1"></div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </a>
+          <div class="news-item">
+            <div class="news-img item-2">
+              <div class="img-title">
+                <h4>NGUỒN NƯỚC NHÀ BẠN</h4>
+                <h3>CÓ SẠCH ?</h3>
+              </div>
+              <a class="btn">Đăng ký xét nghiệm</a>
+            </div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </div>
+          <div class="news-item">
+            <div class="news-img item-3">
+              <div class="img-title">
+                <h4>TRA CỨU KẾT QUẢ</h4>
+                <h3>XÉT NGHIỆM NƯỚC</h3>
+                <a href="" class="btn">Tra cứu ngay</a>
+              </div>
+            </div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </div>
+          <div class="news-item">
+            <div class="news-img item-1"></div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </div>
+          <div class="news-item">
+            <div class="news-img item-2">
+              <div class="img-title">
+                <h4>NGUỒN NƯỚC NHÀ BẠN</h4>
+                <h3>CÓ SẠCH ?</h3>
+              </div>
+              <a class="btn">Đăng ký xét nghiệm</a>
+            </div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </div>
+          <div class="news-item">
+            <div class="news-img item-3">
+              <div class="img-title">
+                <h4>TRA CỨU KẾT QUẢ</h4>
+                <h3>XÉT NGHIỆM NƯỚC</h3>
+                <a href="" class="btn">Tra cứu ngay</a>
+              </div>
+            </div>
+            <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+            <p>12/01/2022</p>
+          </div>
+        </div>
+        <div class="news-content d-flex flex-wrap">
+          <div class="content-left col-xl-8">
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+            <a class="item d-flex">
+              <img src="./assets/img/tintuc4.png" alt="" />
+              <div>
+                <h4>Công ty CP Karofi chung tay chăm lo Tết cho người nghèo</h4>
+                <div class="d-flex">
+                  <h5>KIỂM TRA THỰC PHẨM</h5>
+                  <span>12/01/2022</span>
+                </div>
+                <p>
+                  Chuyên gia dinh dưỡng khuyến cáo, nhiều phụ huynh đang có
+                  những ngộ nhận ảnh hưởng đến chiều cao tương lai của trẻ.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="content-right col-xl-4">
+            <div class="top-news">
+              <h4 class="title">BÀI VIẾT XEM NHIỀU</h4>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+            </div>
+            <div class="banner banner-1"></div>
+            <div class="banner banner-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHI TIẾT TIN TỨC  -->
+      <div class="tab-container tab-news detail inner">
+        <div class="news-content d-flex flex-wrap">
+          <div class="content-left col-xl-8">
+            <div class="news-header">
+              <div class="news-tab">
+                <ul>
+                  <li>Kiểm tra nước</li>
+                  <li>Tin tức</li>
+                  <li class="active">Chi tiết bài viết</li>
+                </ul>
+              </div>
+              <div class="news-date">
+            Thứ tư, 23/6/2021, 06:01 (GMT+7)
+              </div>
+            </div>
+            <h3 class="title">Chất lượng nước máy thành phố Hà Nội</h3>
+            <div class="news-toolbar">
+              <ul>
+                <li>
+                  <img src="./assets/img/fontsize.png" alt="" />
+                  <p>Kích thước</p>
+                </li>
+                <li>
+                  <img src="./assets/img/seen.png" alt="" />
+                  <p>22</p>
+                </li>
+                <li>
+                  <img src="./assets/img/like.png" alt="" />
+                  <p>125</p>
+                </li>
+                <li>
+                  <img src="./assets/img/link.png" alt="" />
+                  <p>02</p>
+                </li>
+              </ul>
+            </div>
+            <div class="news-post">
+              <p>
+                Hệ thống cấp nước Hà Nội do Công ty Kinh doanh nước sạch
+                (CTKDNS) Hà Nội quản lý. Hệ thống cấp nước Hà Nội được xây dựng
+                từ năm 1894 dưới thời Pháp thuộc Từ đó đến nay, sau hơn một thế
+                kỷ vận hành khai thác, hệ thống đã được mở rộng và nâng cấp
+                nhiều lần. CTKDNS Hà Nội, chịu trách nhiệm cấp nước cho 8 quận
+                nội thành là: Hoàn Kiếm, Đống Đa, Hai Bà Trưng, Ba Đình, Cầu
+                Giấy, Tây Hồ, Thanh Xuân, Hoàng Mai và 2 huyện ngoại thành là:
+                Từ Liêm, Thanh Trì. <br> <br> CTKDNS Hà Nội số 2, chịu trách nhiệm cấp
+                nước cho quận Long Biên và 2 huyện ngoại thành là: Gia Lâm, Đông
+                Anh. CTKDNS Hà Nội có nhiệm vụ sản xuất và kinh doanh nước sạch
+                theo quy định của UBNDTP Hà Nội. Mặc dù đã được cải thiện đáng
+                kể, song hệ thống cấp nước khu vực bờ Nam sông Hồng do CTKSNS Hà
+                Nội quản lý với tổng công suất khai thác hơn 400.000 m3/ngđ. Mặt
+                khác, do nguồn nước ngầm ở khu vực phía Nam thành phố Hà Nội đã
+                bị ô nhiễm bởi nước thải sinh hoạt và công nghiệp, nên chất
+                lượng nước sau xử lý của các nhà máy nước ở khu vực phía Nam Hà
+                Nội như: Hạ Đình, Pháp Vân, Tương Mai chưa đạt được quy chuẩn
+                nước ăn uống sinh hoạt của Bộ Y Tế, QCVN 01: 2009/BYT.
+                <br>
+                <br>
+                <img src="./assets/img/post-img.png" alt="" />
+                <br>
+                <br>
+                Tình trạng ô nhiễm nguồn nước ngầm ở Hà Nội hiện nay đang ở mức
+                báo động nghiêm trọng. Máy lọc nước thông minh Hà Nội có địa
+                hình thấp về phía Nam và Đông Nam, toàn bộ nước bề mặt kéo theo
+                chất bẩn về đây, ngấm xuống làm bẩn cả những tầng chứa nước nằm
+                sâu dưới lòng đất. Tại khu vực phía Nam và Đông Nam thành phố Hà
+                Nội, nguồn nước ngầm đều bị ô nhiễm nặng. Hàm lượng Amôni cao
+                hơn giới hạn cho phép nhiều lần, điển hình là các giếng của nhà
+                máy nước Pháp Vân chứa NH+4 tới 30mg/l. Hiện nay chưa có nhiều
+                đánh giá về ô nhiễm kim loại nặng trong nước uống trên địa bàn
+                Hà Nội theo QCVN nước ăn uống. Kim loại nặng có Hg, Cd, Pb, As,
+                Sb, Cr, Cu, Zn, Mn, v.v... <br> <br> Thường không tham gia hoặc ít tham
+                gia vào quá trình sinh hoá của các thể sinh vật và thường tích
+                luỹ trong cơ thể chúng. Vì vậy, chúng là các nguyên tố độc hại
+                với sinh vật nói chung và con người nói riêng. Nguyên nhân chủ
+                yếu gây ô nhiễm kim loại nặng là quá trình đổ vào môi trường
+                nước, nước thải công nghiệp và nước thải độc hại không xử lý
+                hoặc xử lý không đạt yêu cầu. Hiện tượng nước bị ô nhiễm kim
+                loại nặng thường gặp trong các lưu vực nước gần các khu công
+                nghiệp, các thành phố lớn và khu vực khai thác khoáng sản. Ô
+                nhiễm kim loại nặng biểu hiện ở nồng độ cao của các kim loại
+                nặng trong nước. Ô nhiễm nước bởi kim loại nặng có tác động tiêu
+                cực tới môi trường sống của sinh vật và con người. Kim loại nặng
+                tích luỹ theo chuỗi thức ăn thâm nhập và cơ thể người. Nước mặt
+                bị ô nhiễm sẽ lan truyền các chất ô nhiễm vào nước ngầm, vào đất
+                và các thành phần môi trường liên quan khác. Những đánh giá về
+                chỉ tiêu kim loại nặng trong nước ăn uống có ý nghĩa quan trọng
+                và trực tiếp đến đời sống cộng đồng.
+              </p>
+            </div>
+            <div class="news-relate">
+              <h4 class="title">Bài viết cùng chuyên mục</h4>
+              <div class="relate-slide">
+                <div class="item">
+                  <img src="./assets/img/tintuc5.png" alt="" />
+                    <b>Chất lượng nước máy thành phố Hà Nội</b>
+                    <span>12/01/2022</span>
+              </div>
+              <div class="item">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+            </div>
+            <div class="item">
+              <img src="./assets/img/tintuc5.png" alt="" />
+                <b>Chất lượng nước máy thành phố Hà Nội</b>
+                <span>12/01/2022</span>
+          </div>
+            </div>
+          </div>
+          </div>
+          <div class="content-right col-xl-4">
+            <div class="top-news">
+              <h4 class="title">BÀI VIẾT XEM NHIỀU</h4>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+              <a class="item d-flex">
+                <img src="./assets/img/tintuc5.png" alt="" />
+                <div class="d-flex flex-column">
+                  <b>Chất lượng nước máy thành phố Hà Nội</b>
+                  <span>12/01/2022</span>
+                </div>
+              </a>
+            </div>
+            <div class="banner banner-1"></div>
+            <div class="banner banner-2"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!---------------------------------- FOOTER ---------------------------------->
+    <footer>
+      <!-- Footer content -->
+      <div class="footer-content">
+        <div class="inner row p-0">
+          <div class="contact col-md-4 col-sm-6 col-12">
+            <h3>THÔNG TIN LIÊN HỆ</h3>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="./assets/icon/location.svg" alt="" />
+                  <span>57 Lê Quý Đôn, Quận Hai Bà Trưng, Hà Nội</span>
+                </a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assets/icon/email.svg" alt="" />
+                  <span>nioeh@nioeh.org.vn</span>
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/img/fb.png" alt="" /></a>
+                <a href=""><img src="./assets/img/tw.png" alt="" /></a>
+                <a href=""><img src="./assets/img/gg.png" alt="" /></a>
+                <a href=""><img src="./assets/img/yt.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="link col-md-4 col-sm-6 col-12">
+            <h3>LIÊN KẾT</h3>
+            <ul>
+              <li>
+                <img src="./assets/icon/dot.svg" alt="" /><a href=""
+                  >Giới thiệu</a
+                >
+              </li>
+              <li>
+                <img src="./assets/icon/dot.svg" alt="" /><a href="">Tin tức</a>
+              </li>
+              <li>
+                <img src="./assets/icon/dot.svg" alt="" /><a href=""
+                  >Giới thiệu</a
+                >
+              </li>
+              <li>
+                <img src="./assets/icon/dot.svg" alt="" /><a href="">Tin tức</a>
+              </li>
+            </ul>
+          </div>
+          <div class="working-time col-md-4 col-sm-6 col-12">
+            <h3>THỜI GIAN LÀM VIỆC</h3>
+            <ul>
+              <li>
+                <span>Thứ 2 - Thứ 6 : <b>7h15 - 16h45</b></span>
+              </li>
+              <li>
+                <span>Thứ 7 : <b> 7h15 - 12h00</b></span>
+              </li>
+              <li>
+                <h5>Cập nhật thông tin</h5>
+              </li>
+              <li>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email của bạn"
+                  />
+                  <a href=""><img src="./assets/icon/direct.svg" alt="" /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Footer copyright -->
+      <div
+        class="footer-copyright d-flex align-items-center justify-content-center"
+      >
+        <p>Copyright © 2022. <b>Viện sức khỏe nghề nghiệp và môi trường</b></p>
+      </div>
+    </footer>
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script Jquery -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <!-- Script Slick slider -->
+    <script
+      type="text/javascript"
+      src="./lib/slick/slick/slick.min.js"
+    ></script>
+    <!-- Animation  -->
+    <script src="./lib/scrolla/dist/js/jquery.scrolla.min.js"></script>
+
+    <!-- My Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
