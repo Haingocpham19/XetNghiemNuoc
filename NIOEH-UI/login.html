@@ -29,6 +29,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/style/index.css" />
     <link rel="stylesheet" type="text/css" href="./assets/style/index-responsive.css" />
 
+
+
     <title>NIOEH</title>
 </head>
 
@@ -159,10 +161,16 @@
             <div class="box-form-authen">
                 <form>
                     <div class="mb-3">
-                        <label for="current-pwd" class="form-label required">Email/Số điện thoại</label>
+                        <label for="email" class="form-label required">Email/Số điện thoại</label>
                         <div class="input-group">
-                            <input type="email" class="form-control">                      
+                            <input type="email" id="email" name="email" class="form-control">                      
                         </div>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                        <span class="form-message"></span>
                     </div>
                     <div class="mb-3">
                         <label class="form-label required">Mật khẩu</label>
@@ -273,6 +281,8 @@
 
     <!-- My Script -->
     <script src="./js/index.js"></script>
+    <!-- validate js -->
+    <script src="/js/validator.js"></script>
 </body>
 
 </html>
