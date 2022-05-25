@@ -10,7 +10,6 @@ function Validator(options) {
     }
 
     var selectorRules = {};
-
     // Hàm thực hiện validate
     function validate(inputElement, rule) {
         var errorElement = getParent(inputElement, options.formGroupSelector).querySelector(options.errorSelector);
