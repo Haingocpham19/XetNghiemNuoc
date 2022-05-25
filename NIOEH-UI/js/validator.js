@@ -173,3 +173,14 @@ Validator.isConfirmed = function (selector, getConfirmValue, message) {
         }
     }
 }
+
+Validator.isNumber = function (selector, message) {
+    return{
+        selector: selector,
+        test:function (value) {   
+            return Number.isInteger(parseInt(value)) ? undefined :  message || 'Gía trị nhập vào cần phải là số'
+        }
+    }
+}
+
+

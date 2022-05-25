@@ -89,7 +89,11 @@ li {
       position: relative;
       .customer-info{
         padding: 0 0 0 60px;
-        span{
+        display:flex;
+        align-items: center;
+        .user-name{
+          padding-left:4px;
+          padding-top: 4px;
           font-weight: 400;
           font-size: 14px;
           line-height: 14px;
@@ -108,22 +112,33 @@ li {
         font-size: 14px;
         line-height: 24px;
         color: #52606B;
-        padding:20px;
         position:absolute;
-        top:25px;
+        top:27px;
         background: #FFFFFF;
         box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
         width:100%;
         z-index: 10;
+        img{
+          margin-right:10px;
+          width: 20px;
+          height: 20px;
+        }
         li{
-          margin-bottom: 5px;
+          a{
+            padding:10px;
+          }
+          margin:10px 0;
+          img{
+            filter: invert(61%) sepia(16%) saturate(350%) hue-rotate(165deg) brightness(87%) contrast(88%);
+          }
         }
-        a{
-          padding:0;
-        }
-        a:hover{
+        li:hover{
+          background-color:#E3F9E2;
           color:#24A11E;
+          img{
+            filter: invert(43%) sepia(85%) saturate(928%) hue-rotate(81deg) brightness(91%) contrast(80%);
+          }
         }
       }
     }
@@ -201,11 +216,11 @@ li {
     .nav__mobile {
       z-index:100;
       opacity: 0;
-      transform: translateX(100%);
+      transform: translateX(-100%);
       transition: transform linear 0.3s, opacity linear 0.5s;
       position: fixed;
       top: 0;
-      right: 0;
+      left: 0;
       bottom: 0;
       width: 320px;
       max-width: 100%;
@@ -1538,20 +1553,13 @@ li {
     text-align: left;
   }
   
-  .form-label {
-    font-weight: 700;
-    padding-bottom: 6px;
-    line-height: 1.8rem;
-    font-size: 1.4rem;
-  }
-  
   .form-control {
     height: 40px;
     padding: 8px 12px;
     border: 1px solid #b3b3b3;
     border-radius: 3px;
+    font-size:14px;
     outline: none;
-    font-size: 1.4rem;
   }
   
   .form-control:hover {
@@ -1567,8 +1575,7 @@ li {
   }
   
   .form-message {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size:12px;
     padding: 4px 0 0;
   }
   

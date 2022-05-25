@@ -52,13 +52,13 @@
                             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M18.4444 19V17.4444C18.4444 15.7262 17.0516 14.3333 15.3333 14.3333H9.11111C7.39289 14.3333 6 15.7262 6 17.4444V19M15.3333 8.11111C15.3333 9.82933 13.9404 11.2222 12.2222 11.2222C10.504 11.2222 9.11111 9.82933 9.11111 8.11111C9.11111 6.39289 10.504 5 12.2222 5C13.9404 5 15.3333 6.39289 15.3333 8.11111Z" stroke="#24A11E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            <div>Nguyễn Văn Việt</div>                                
+                            <div class="user-name">Nguyễn Văn Việt</div>                                
                         </div>
                         <ul class="customer-info-list">
-                            <li><a href="">Thông tin tài khoản</a></li>
-                            <li><a href="">Danh sách đơn hàng</a></li>
-                            <li><a href="">Đổi mật khẩu</a></li>
-                            <li><a href="">Đăng xuất</a></li>
+                            <li><a href=""><img src="/assets/img/user-1.png" alt="">Thông tin tài khoản</a></li>
+                            <li><a href=""><img src="/assets/img/cart-4.png" alt="">Danh sách đơn hàng</a></li>
+                            <li><a href=""><img src="/assets/img/lock-off.png" alt="">Đổi mật khẩu</a></li>
+                            <li><a href=""><img src="/assets/img/login.png  " alt="">Đăng xuất</a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,11 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="header-mobile" style="border-bottom:1px solid #e0e0e0">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18.4444 19V17.4444C18.4444 15.7262 17.0516 14.3333 15.3333 14.3333H9.11111C7.39289 14.3333 6 15.7262 6 17.4444V19M15.3333 8.11111C15.3333 9.82933 13.9404 11.2222 12.2222 11.2222C10.504 11.2222 9.11111 9.82933 9.11111 8.11111C9.11111 6.39289 10.504 5 12.2222 5C13.9404 5 15.3333 6.39289 15.3333 8.11111Z" stroke="#24A11E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <a href="#" class="header-logo"><img src="./assets/img/logo.png" /></a>
+        <div class="header-mobile" style="border-bottom:1px solid #e0e0e0">       
             <div class="btn-nav-mobile">
                 <!-- <img src="./assets/img/bars-icon.png" alt="" /> -->
                 <div class="menu-mobile">
@@ -156,6 +152,10 @@
                     </div>
                 </div>
             </div>
+            <a href="#" class="header-logo"><img src="./assets/img/logo.png" /></a>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.4444 19V17.4444C18.4444 15.7262 17.0516 14.3333 15.3333 14.3333H9.11111C7.39289 14.3333 6 15.7262 6 17.4444V19M15.3333 8.11111C15.3333 9.82933 13.9404 11.2222 12.2222 11.2222C10.504 11.2222 9.11111 9.82933 9.11111 8.11111C9.11111 6.39289 10.504 5 12.2222 5C13.9404 5 15.3333 6.39289 15.3333 8.11111Z" stroke="#24A11E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
     </header>
     <div class=" box-login">
@@ -280,11 +280,13 @@
 
     <!-- My Script -->
     <script src="./js/index.js"></script>
+    <script>
+        ShowHidePassword(1);
+    </script>
     <!-- validate js -->
     <script src="./js/validator.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-          // Mong muốn của chúng ta
           Validator({
             form: '#form-1',
             formGroupSelector: '.form-group',
